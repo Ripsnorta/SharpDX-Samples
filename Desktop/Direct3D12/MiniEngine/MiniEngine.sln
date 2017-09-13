@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{129334B2-FA80-4901-8462-07EBE9C22569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelConverter", "ModelConverter\ModelConverter.csproj", "{0FEAFA68-8EF3-42DE-92C2-7177B22CD164}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelViewer", "ModelViewer\ModelViewer.csproj", "{AC21F5D7-9CC8-48A7-970A-2FAD03A63C1D}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{129334B2-FA80-4901-8462-07EBE9C22569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{129334B2-FA80-4901-8462-07EBE9C22569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{129334B2-FA80-4901-8462-07EBE9C22569}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FEAFA68-8EF3-42DE-92C2-7177B22CD164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FEAFA68-8EF3-42DE-92C2-7177B22CD164}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FEAFA68-8EF3-42DE-92C2-7177B22CD164}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FEAFA68-8EF3-42DE-92C2-7177B22CD164}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC21F5D7-9CC8-48A7-970A-2FAD03A63C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC21F5D7-9CC8-48A7-970A-2FAD03A63C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC21F5D7-9CC8-48A7-970A-2FAD03A63C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
