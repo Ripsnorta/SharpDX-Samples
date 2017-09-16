@@ -19,15 +19,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MiniEngine.ModelViewer
+namespace MiniEngine.Core
 {
-	using MiniEngine.Core;
-
-	class Program
+	public class GameCore
 	{
-		static void Main(string[] args)
+		public static void RunApplication()
 		{
-			GameCore.RunApplication();
+
 		}
 	}
 }

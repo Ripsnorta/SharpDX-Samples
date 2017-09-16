@@ -19,15 +19,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MiniEngine.ModelViewer
+namespace MiniEngine.Core.Graphics
 {
-	using MiniEngine.Core;
-
-	class Program
+	public class GraphicsContext
 	{
-		static void Main(string[] args)
-		{
-			GameCore.RunApplication();
-		}
 	}
 }

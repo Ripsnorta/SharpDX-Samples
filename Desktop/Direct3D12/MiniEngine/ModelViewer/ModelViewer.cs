@@ -21,13 +21,42 @@ using System.Threading.Tasks;
 
 namespace MiniEngine.ModelViewer
 {
-	using MiniEngine.Core;
+	using Core;
+	using Core.Graphics;
 
-	class Program
+	class ModelViewer : IGameApp
 	{
-		static void Main(string[] args)
+		public void Startup()
 		{
-			GameCore.RunApplication();
+
+		}
+
+		public void Cleanup()
+		{
+
+		}
+
+		public bool IsDone()
+		{
+			return false;
+		}
+
+		public void Update(float deltaT)
+		{
+
+		}
+
+		public void RenderScene()
+		{
+
+		}
+
+		/// <summary>
+		/// Optional UI (overlay) rendering pass.  This is LDR.  The buffer is already cleared. 
+		/// </summary>
+		/// <param name="gc"></param>
+		public void RenderUI(ref GraphicsContext gc)
+		{
 		}
 	}
 }
